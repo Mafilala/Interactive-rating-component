@@ -1,0 +1,37 @@
+.thank_box {
+  display: grid;
+  max-width: 410px;
+  aspect-ratio: 1 / 1;
+  padding: 3rem 2rem;
+  border: 1px solid black;
+  border-radius: 3rem;
+  justify-items: center;
+  background: radial-gradient(circle at top, #222933 0, #1e252f, #171e28 100%);
+  .rating_message_container {
+    background-color: hsl(213, 19%, 18%);
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  p {
+    text-align: center;
+  }
+  .rating_message {
+    color: hsl(25, 97%, 53%);
+  }
+  h1 {
+    color: white;
+  }
+  p {
+    color: hsl(217, 12%, 63%);
+  }
+}
+@media (max-width: 410px) {
+  .thank_box {
+    aspect-ratio: 6 / 5;
+  }
+}

@@ -1,0 +1,44 @@
+.box {
+  display: grid;
+  gap: 1rem;
+  max-width: 410px;
+  aspect-ratio: 1 / 1;
+  padding: 2rem 1.8rem;
+  border-radius: 3rem;
+  background: radial-gradient(circle at top, #222933 0, #1e252f, #171e28 100%);
+  h1 {
+    color: white;
+  }
+  p {
+    color: hsl(217, 12%, 63%);
+  }
+  button {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 1.75rem;
+    padding: 0 auto;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+  }
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+}
+.star {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+}
+@media (max-width: 410px) {
+  .box {
+    aspect-ratio: 5 / 6;
+    max-width: 320px;
+  }
+}

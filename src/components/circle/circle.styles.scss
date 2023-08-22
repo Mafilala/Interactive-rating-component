@@ -1,0 +1,15 @@
+.rating_circle {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  font-size: 1rem;
+}
+.rating_circle:hover {
+  color: hsl(213, 19%, 18%);
+  background-color: hsl(217, 12%, 63%);
+  cursor: pointer;
+}

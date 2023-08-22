@@ -1,0 +1,12 @@
+.ratings {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  display: grid;
+  max-width: 420px;
+  aspect-ratio: 1 / 1;
+  padding: 3rem 2rem;
+  border: 1px solid black;
+  border-radius: 3rem;
+}
